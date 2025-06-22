@@ -1,0 +1,65 @@
+# See https://github.com/github/gitignore/blob/main/Rails.gitignore for more details
+
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore pid files, cache, and storage
+/tmp/pids/*
+/tmp/cache/*
+/tmp/storage/*
+!/tmp/pids/.keep
+!/tmp/cache/.keep
+!/tmp/storage/.keep
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
+/config/credentials/*.key
+
+# Ignore dotenv environment variable files
+.env*
+
+# Ignore byebug command history file.
+.byebug_history
+
+# Ignore node modules
+/node_modules
+
+# Ignore yarn files
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore coverage reports
+/coverage/
+
+# Ignore public assets
+/public/assets
+
+# Ignore Docker files
+/.docker/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore other system files
+*.swp
+*~
+.project
+.idea/
+.secret
+
+# Ignore Kamal deploy secrets
+/.kamal/ 
