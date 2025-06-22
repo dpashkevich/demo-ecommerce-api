@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: "iPhone 15 Pro"
+  description: "Latest Apple smartphone with advanced features"
+  price: 999.99
+
+two:
+  title: "MacBook Air M2"
+  description: "Lightweight laptop with powerful M2 chip"
+  price: 1199.99
