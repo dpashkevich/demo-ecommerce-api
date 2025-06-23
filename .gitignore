@@ -6,7 +6,6 @@
 *.swp
 *.swo
 *.bundle
-.ruby-version
 .ruby-gemset
 .rvmrc
 .byebug_history
