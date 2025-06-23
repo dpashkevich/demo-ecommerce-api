@@ -1,0 +1,99 @@
+# See https://github.com/github/gitignore/blob/main/Rails.gitignore for official template
+
+# General Ruby artifacts
+*.rbc
+*.gem
+*.swp
+*.swo
+*.bundle
+.ruby-version
+.ruby-gemset
+.rvmrc
+.byebug_history
+.env
+.env.*
+.env*.local
+!.env.example
+
+# Rails artifacts
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep
+/storage/*
+!/storage/.keep
+/tmp/storage/*
+!/tmp/storage/.keep
+/public/system
+/public/assets
+/public/uploads
+/coverage/
+/spec/tmp
+rerun.txt
+pickle-email-*.html
+capybara-*.html
+.rspec
+*.orig
+
+# Rails database artifacts
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-[0-9]*
+
+# Rails credentials and secrets
+/config/master.key
+/config/credentials.yml.enc
+/config/credentials/*.key
+/config/credentials/*.yml.enc
+!/config/credentials/test.yml.enc
+/config/initializers/secret_token.rb
+
+# Node.js and Yarn artifacts
+/node_modules/
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+/public/packs
+/public/packs-test
+.pnp.*
+
+# Bundler artifacts
+/.bundle
+/vendor/bundle
+
+# Docker and deployment related
+/.dockerignore
+docker-compose.override.yml
+/tmp/docker-*
+/var/run/docker.sock
+.kamal/
+
+# Editor and OS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.iml
+.project
+.directory
+.env.local
+*~
+
+# Bower, if used
+/vendor/assets/bower_components
+*.bowerrc
+bower.json
+
+# Ignore pow environment settings
+.powenv
