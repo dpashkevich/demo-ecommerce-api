@@ -1,0 +1,9 @@
+# Junction table for shop_items and shop_item_categories (many-to-many)
+
+one:
+  shop_item_id: 1
+  shop_item_category_id: 1
+
+two:
+  shop_item_id: 2
+  shop_item_category_id: 1
